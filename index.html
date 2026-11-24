@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Norme sulla privacy – Visualizzatore disegni 3D</title>
+<meta name="description" content="Norme sulla privacy dell'app Android Visualizzatore disegni 3D: l'app non raccoglie e non trasmette dati.">
+<style>
+  :root { --bg: #f5f6fa; --carta: #ffffff; --testo: #1a1f2b; --tenue: #5b6475; --riga: #dfe3ec; --blu: #143f73; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #11141b; --carta: #1a1e28; --testo: #eceef4; --tenue: #9aa3b5; --riga: #2c3141; --blu: #9cc4ff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--testo); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 56px; }
+  header { border-bottom: 3px solid var(--blu); padding-bottom: 16px; margin-bottom: 8px; }
+  .app { color: var(--blu); font-weight: 600; font-size: 14px; letter-spacing: .06em; text-transform: uppercase; margin: 0 0 4px; }
+  h1 { font-size: 28px; line-height: 1.2; margin: 0; }
+  .data { color: var(--tenue); font-size: 14px; margin: 8px 0 0; }
+  h2 { font-size: 19px; margin: 32px 0 8px; }
+  p, li { margin: 0 0 12px; }
+  ul { padding-left: 22px; margin: 0 0 12px; }
+  .sintesi { background: var(--carta); border: 1px solid var(--riga); border-radius: 10px; padding: 16px 18px; margin: 24px 0 0; font-weight: 500; }
+  section[lang="en"] { border-top: 1px solid var(--riga); margin-top: 48px; padding-top: 8px; }
+  a { color: var(--blu); }
+  footer { color: var(--tenue); font-size: 14px; margin-top: 40px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="app">Visualizzatore disegni 3D</p>
+    <h1>Norme sulla privacy</h1>
+    <p class="data">Ultimo aggiornamento: 24 novembre 2026 · <a href="#english">English version</a></p>
+  </header>
+
+  <p class="sintesi">In breve: l'app non raccoglie, non trasmette e non condivide alcun dato. I tuoi disegni restano sul telefono.</p>
+
+  <h2>Che cos'è l'app</h2>
+  <p>Visualizzatore disegni 3D è un'app per Android (nome del pacchetto <code>it.studioassistant.visore</code>) che apre sul telefono file di disegno 3D nei formati SketchUp (.skp), Spazio3D (.s3d) e 3D Studio (.3ds).</p>
+
+  <h2>Dati personali</h2>
+  <p>L'app non raccoglie dati personali e non ne trasmette a nessuno. In particolare:</p>
+  <ul>
+    <li>non richiede la creazione di un account né un accesso;</li>
+    <li>non contiene pubblicità;</li>
+    <li>non contiene strumenti di statistica, di tracciamento o di segnalazione automatica degli errori;</li>
+    <li>non accede a contatti, posizione, fotocamera, microfono o ad altri file del telefono.</li>
+  </ul>
+
+  <h2>I file che apri</h2>
+  <p>Quando apri un disegno, l'app ne salva una copia nella propria memoria privata sul telefono, per poterlo riaprire dall'elenco degli ultimi aperti. Insieme alla copia conserva il nome del file, la data di apertura e l'ultima inquadratura. Queste informazioni non lasciano mai il telefono.</p>
+  <p>Puoi cancellarle in ogni momento: togliendo il disegno dall'elenco dentro l'app, cancellando i dati dell'app dalle impostazioni di Android, oppure disinstallando l'app.</p>
+
+  <h2>Collegamento a internet</h2>
+  <p>L'app non si collega a internet. Il permesso «Internet» è dichiarato solo per una ragione tecnica: il componente che disegna il modello carica le proprie pagine dall'interno dell'app, e ogni altro indirizzo viene rifiutato.</p>
+
+  <h2>Minori</h2>
+  <p>L'app è uno strumento di lavoro e non è rivolta ai minori. In ogni caso non raccoglie dati di nessun utente.</p>
+
+  <h2>Modifiche a queste norme</h2>
+  <p>Se queste norme cambiano, la nuova versione viene pubblicata su questa pagina con la data aggiornata.</p>
+
+  <h2>Titolare e contatti</h2>
+  <p>{{NOME_TITOLARE}}<br>
+  E-mail: <a href="mailto:{{EMAIL_CONTATTO}}">{{EMAIL_CONTATTO}}</a></p>
+
+  <section lang="en" id="english">
+    <h2>Privacy policy (English)</h2>
+    <p>Visualizzatore disegni 3D is an Android app (package name <code>it.studioassistant.visore</code>) that opens 3D drawing files in SketchUp (.skp), Spazio3D (.s3d) and 3D Studio (.3ds) formats on your phone.</p>
+    <p><strong>The app does not collect, transmit or share any data.</strong> It has no account or sign-in, no advertising, and no analytics, tracking or crash-reporting tools. It does not access contacts, location, camera, microphone or other files on the device.</p>
+    <p>When you open a drawing, the app stores a copy in its private storage on your phone, together with the file name, the opening date and the last camera view, so that you can reopen it from the recent list. This information never leaves your phone. You can delete it at any time by removing the drawing from the list inside the app, by clearing the app's data in Android settings, or by uninstalling the app.</p>
+    <p>The app does not connect to the internet. The Internet permission is declared for a technical reason only: the component that renders the model loads its pages from inside the app, and every other address is refused.</p>
+    <p>The app is a professional tool and is not directed at children.</p>
+    <p>Contact: {{NOME_TITOLARE}} – <a href="mailto:{{EMAIL_CONTATTO}}">{{EMAIL_CONTATTO}}</a></p>
+  </section>
+
+  <footer>SketchUp, Spazio3D e 3D Studio sono marchi dei rispettivi proprietari. L'app è indipendente e non è collegata ai loro produttori.</footer>
+</main>
+</body>
+</html>
